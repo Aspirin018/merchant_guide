@@ -1,8 +1,8 @@
-####***How To Run RomanNumeral***
+***How To Run RomanNumeral***
 ###### method1
     `mvn compile`
     Run AllTests.class manually
-    `mvn exec:java -Dexec.mainClass="com.merchant.MerchantGuideApp"`
+    `mvn exec:java -Dexec.mainClass="com.merchant.RomanNumberApp"`
 ##### method2
     Run AllTests.class manually
-    Run main method in MerchantGuideApp.class manually
+    Run main method in RomanNumberApp.class manually
