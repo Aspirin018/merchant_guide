@@ -69,7 +69,7 @@ public class QuestionInfo {
         return metalUnitPrice;
     }
 
-    public void setMetalUnitPrice(Float metalUniitPrice) {
-        this.metalUnitPrice = metalUniitPrice;
+    public void setMetalUnitPrice(Float metalUnitPrice) {
+        this.metalUnitPrice = metalUnitPrice;
     }
 }

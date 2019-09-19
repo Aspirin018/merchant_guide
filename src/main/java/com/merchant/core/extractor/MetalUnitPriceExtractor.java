@@ -60,4 +60,11 @@ public class MetalUnitPriceExtractor implements Extractor {
         metalUnitPriceMapper.put(metal, totalPrice / questionInfo.getArabic());
     }
 
+    public Map<String, Float> getMetalUnitPriceMapper() {
+        return metalUnitPriceMapper;
+    }
+
+    public void setMetalUnitPriceMapper(Map<String, Float> metalUnitPriceMapper) {
+        this.metalUnitPriceMapper = metalUnitPriceMapper;
+    }
 }

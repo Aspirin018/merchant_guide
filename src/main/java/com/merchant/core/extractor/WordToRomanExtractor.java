@@ -50,4 +50,12 @@ public class WordToRomanExtractor implements Extractor {
         String[] ss = questionInfo.getSource().split(" ");
         wordMapper.put(ss[0], RomanNumeral.parse(ss[2]));
     }
+
+    public void setWordMapper(Map<String, RomanNumeral> wordMapper) {
+        this.wordMapper = wordMapper;
+    }
+
+    public Map<String, RomanNumeral> getWordMapper() {
+        return wordMapper;
+    }
 }

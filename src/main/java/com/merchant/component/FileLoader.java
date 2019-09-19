@@ -17,7 +17,6 @@ import java.net.URL;
 public class FileLoader {
 
     private static  final Logger logger = LogManager.getLogger(FileLoader.class);
-
     private File file;
 
     public FileLoader loadFile(String... args) {
@@ -38,4 +37,9 @@ public class FileLoader {
         }
         return null;
     }
+
+    public File getFile() {
+        return file;
+    }
+
 }
